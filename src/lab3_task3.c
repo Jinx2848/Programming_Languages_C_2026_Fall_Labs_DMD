@@ -48,7 +48,6 @@ int main(void) {
 
 // Implement functions below
 int my_strlen(const char *str) {
-    // TODO: count characters until '\0'
     int length = 0;
     for (int i = 0; str[i] != '\0'; i++)
     {
@@ -58,7 +57,6 @@ int my_strlen(const char *str) {
 }
 
 void my_strcpy(char *dest, const char *src) {
-    // TODO: copy characters until '\0', then write the '\0' into dest
     int i = 0;
     for (i = 0; src[i] != '\0'; i++){
         dest[i] = src[i];

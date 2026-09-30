@@ -54,7 +54,6 @@ int main(void) {
 
 // Implement functions below
 int array_min(int arr[], int size) {
-    // TODO: return smallest element
     int min = arr[0];
     for (int i = 1; i < size; i++){
         if (arr[i] < min){
@@ -65,7 +64,6 @@ int array_min(int arr[], int size) {
 }
 
 int array_max(int arr[], int size) {
-    // TODO: return largest element
     int max = 0;
     for (int i = 0; i < size; i++){
         if (arr[i] > max){
@@ -76,7 +74,6 @@ int array_max(int arr[], int size) {
 }
 
 int array_sum(int arr[], int size) {
-    // TODO: return sum of elements
     int sum = 0;
     for (int i = 0; i < size; i++){
         sum += arr[i];
@@ -85,7 +82,6 @@ int array_sum(int arr[], int size) {
 }
 
 float array_avg(int arr[], int size) {
-    // TODO: return average as float (avoid integer division)
     float sum = 0.0;
     for (int i = 0; i < size; i++){
         sum += arr[i];
