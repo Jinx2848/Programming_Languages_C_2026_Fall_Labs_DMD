@@ -68,9 +68,13 @@ int main(void) {
     }
     // Optional (not autograded): after the table, print the average
     // grade or the top student
-    // hehehehe fun sidequest :)
-
-    
+    // hehehehe fun sidequest :) picking the average grade option.
+    float sum = 0.0;
+    for (int i = 0; i < n; i++){
+        sum += students[i].grade;
+    }
+    float average = sum / n;
+    printf("\nAverage grade: %.2f\n", average);
 
     return 0;
 }
