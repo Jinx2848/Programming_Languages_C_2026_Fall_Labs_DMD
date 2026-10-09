@@ -66,8 +66,7 @@ int main(void) {
     for (int i = 0; i < n; i++){
         printf("%-6d %-11s %.1f\n", students[i].id, students[i].name, students[i].grade);
     }
-    // Optional (not autograded): after the table, print the average
-    // grade or the top student
+    
     // hehehehe fun sidequest :) picking the average grade option.
     float sum = 0.0;
     for (int i = 0; i < n; i++){

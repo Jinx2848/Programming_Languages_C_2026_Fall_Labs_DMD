@@ -34,8 +34,7 @@ int main(void) {
     s2.id = 1002;
     s2.grade = 8.7;
 
-    // TODO: Print each student exactly as:
-    //       Student <k>: <name>, ID: <id>, Grade: <grade with 1 decimal, %.1f>
+
     printf("Student: %s ", s1.name);
     printf("id: %d ", s1.id);
     printf("Grade: %.1f \n", s1.grade);
